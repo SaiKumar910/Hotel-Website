@@ -1,0 +1,9 @@
+.body{
+    
+}
+
+.container{
+    background: blue;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+}

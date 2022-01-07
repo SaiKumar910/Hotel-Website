@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <style>
+         .btn{
+             border-radius: 10px;
+         }
+         .HI{
+             border-radius: 20px;
+             background-color: lightgray;
+         }
+         .bg-light-light{
+           background-color: lightgray;
+         }
+         .bg-change{
+           background: linear-gradient(45deg,blueviolet,deeppink);
+         }
+     </style>
+</head>
+  <body>
+      <nav class="navbar scrolling-navbar fixed-top navbar-dark bg-dark text-warning justify-content-center font-weight-bold" >GREAT LEARNING</nav>
+      
+    <!---
+      <div class=" mt-3 p-4 text-center">
+          <h1 id="msg-1"></h1>
+          <button class="btn btn-primary mt-2" onmouseenter="printWishMessage('Good Morning' , 'limegreen')">Good Morning</button>
+          <button class="btn btn-primary mt-2" onmouseenter="printWishMessage('Good Afternoon' , 'green')">Good Afternoon</button>
+          <button class="btn btn-primary mt-2" onmouseenter="printWishMessage('Good Evening' , 'orange')">Good Evening</button>
+          <button class="btn btn-primary mt-2" onmouseenter="printWishMessage('Good Night' , 'red')">Good Night</button>
+      </div>
+    -->
+     
+      <div class=" HI mt-5 p-4 text-center">
+        <h1 id="msg-1"></h1>
+        <button class="btn btn-primary mt-2" id="gm-1">Good Morning</button>
+        <button class="btn btn-primary mt-2" id="gf-1">Good Afternoon</button>
+        <button class="btn btn-primary mt-2" id="ge-1">Good Evening</button>
+        <button class="btn btn-primary mt-2" id="gn-1">Good Night</button>
+    </div>
+
+    <div class="container mt-4  ">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header bg-secondary text-warning text-center">
+                 <h3>KeyUp Event</h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="username">
+                </div>
+                <h2 class="card-title text-warning" id="msg"></h2>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+                <div class="card-header bg-primary text-white">
+                  Select One
+                </div>
+                <div class="card-body bg-light-light">
+                  <div class="row">
+                    <div class="col">
+                     <form>
+                       <div class="form-group">
+                         <select class="form-control" id="select-lang">
+                          <option value="">Select a lang</option>
+                          <option value="HTML">HTML</option>
+                          <option value="CSS">CSS</option>
+                          <option value="JAVA SCRIPT">JAVA Script</option>
+                          <option value="ANGULAR">ANGULAR</option>
+                          <option value="REACT">REACT</option>
+                         </select>
+                       </div>
+                     </form>
+                    </div>
+                    <div class="col">
+                      <h2 id="lang-option"></h2>
+                    </div>
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     <div class="container mt-5">
+       <div class="row">
+         <div class="col-md-6">
+           <div class="card">
+             <div class="card-header bg-change">
+               <h2>Password Checker</h2>
+             </div>
+             <div class="card-body bg-info">
+                 <div class="row">
+                   <div class="col">
+                      <div class="input-group mb-3">
+                        <input id="password" type="password" class="form-control" aria-label="Text input with Checkbox">
+                        <div class="input-group-append">
+                          <div class="input-group-text">
+                            <input id="checkbox" type="checkbox" aria-label="Checkbox for following text input">
+                            <span class="ml-2">show password</span>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                 </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="container mt-4">
+       <div class="row">
+         <div class="col-md-8">
+           <div class="card">
+           <div class="card-header bg-info">
+             <h1>Amount Range</h1>
+           </div>
+           <div class="card-body">
+             <div class="row">
+               <div class="col-md-8">
+                  <input id="range" type="range" class="custom-range" min="5000" max="500000">
+               </div>
+               <div class="col-md-4">
+                  <h3 class="text-primary ">&#8377;
+                    <span id="amount"></span>
+                  </h3>
+               </div>
+             </div>
+           </div>
+          </div>
+         </div>
+       </div>
+     </div>
+
+    
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2>SMS APPPPP</h2>
+            </div>
+            <div class="card-body bg-light-light text-white">
+              <form>
+                <div class="form-group">
+                  <textarea maxlength="100" id="text-area" rows="4" class="form-control" placeholder="Enter Your Text"></textarea>
+                </div>
+            </form>
+            </div>
+            <div class="card-footer">
+              <h3>The Remaining Charecters :<span class="font-weight-bold text-primary" id="char-count"></span>/100</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+         <div class="input-group mb-3">
+           <input id="password" type="password" class="form-control" aria-label="Text input with Checkbox">
+           <div class="input-group-append">
+             <div class="input-group-text">
+               <input id="checkbox" type="checkbox" aria-label="Checkbox for following text input">
+               <span class="ml-2">show password</span>
+             </div>
+           </div>
+         </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="DOM Mani.js"></script>
+</body>
+</html>

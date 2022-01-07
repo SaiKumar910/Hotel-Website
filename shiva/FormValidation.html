@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Register Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background: teal;
+        }
+        .bg-success{
+            background: linear-gradient(45deg,blueviolet,lime);
+        }
+        .bg-light-light{
+            background: lightgray;
+        }
+        .btn{
+            border-radius: 50px;
+            background: linear-gradient(45deg,blueviolet,deeppink);
+            transition: all 0.5s    ;
+        }
+        .btn:hover{
+            box-shadow: 0 0px 10px black;
+            transform: scale(1.2,1.2);
+        }
+        .is-form-valid{
+            border: 1px solid limegreen;
+            border-left: 15px solid limegreen;
+           
+        }
+        .is-form-invalid{
+            border: 1px solid orangered;
+            border-left: 15px solid orangered;
+            box-shadow: 0 0 5px orangered;
+        }
+        .text-success{
+            color: green !important;
+            font-size: 12px;
+        }
+        .text-danger{
+            color: orangered !important;
+            font-size: 12px;
+        }
+    </style>
+</head>
+  <body>
+      <nav class="navbar scrolling-navbar navbar-dark bg-dark text-warning justify-content-center font-weight-bold">
+        Form Validation
+      </nav>
+
+      <!-------Form------>
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col-md-4 m-auto">
+                  <div class="card">
+                      <div class="card-header bg-success text-white text-center">
+                          <h1>Registrer Here</h1>
+                      </div>
+                      <div class="card-body bg-light-light">
+                          <form id="register-form">
+                              <div class="form-group">
+                                  <input id="username" type="text"  class="form-control" placeholder="UserName...">
+                                <div id="username-feedback"></div>
+                                </div>
+                              <div class="form-group">
+                                <input id="email" type="email"  class="form-control" placeholder="@email">
+                                <div id="email-feedback"></div>
+                            </div>
+                            <div class="form-group">
+                                <input id="password" type="password"  class="form-control" placeholder="Password">
+                                <div id="password-feedback"></div>
+                            </div>
+                            <div class="form-group">
+                                <input id="c_password" type="password"  class="form-control" placeholder="Confirm Password">
+                                <div id="c_password-feedback"></div>
+                            </div>
+                            <div class="text-center">
+                                <input id="register" type="submit"  class="btn btn-primary" value="Register" placeholder="UserName...">
+                            </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="FormValidation.js"></script>
+</body>
+</html>

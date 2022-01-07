@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-----------main nav bar --> */
+.main-nav{
+    
+   background-color: rgba(0,0,0,0.5);
+   width: 100%;
+    color:white;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px blue;
+
+    }
+    .main-nav h1{
+        display: flex;
+        text-align: start;
+    }
+    .black{
+        color: black;
+    }
+    .main-nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+    .main-nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 18px;
+       
+    }
+    .main-nav ul li a:hover{
+        color: blue;
+    }
+    .main-nav img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+
+    .container .blue{
+        color: blue;
+    }
+    .lead{
+        font-size: 18px;
+    }
+    .btn-primary{
+        background-color: #28dddd;
+        text-align: center;
+        width:150px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding: 14px;
+        margin-top: 10px;
+        border-radius: 5px;
+
+       
+    }
+    .btn-primary:hover{
+        cursor: pointer;
+        box-shadow: 0 5px 10px blue;
+    }
+    /*--------landing page-----*/
+
+     .container{
+        background: url(https://media.radissonhotels.net/image/radisson-hotel-zurich-airport/exteriorview/16256-122237-f66996306_3xl.jpg?impolicy=CustomCrop&cwidth=670&cheight=603);
+    
+        background-size: cover;
+        height:100vh;
+     }
+  
+    .content{
+    
+      width: 30%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+      color: white;
+      padding: 7px;
+
+    }
+
+
+     /*---------media quarees--*/
+
+     @media(max-width:768px){
+         .main-nav{
+             flex-direction: column;
+         }
+         .main-nav ul{
+             margin: 10px;
+         }
+     }

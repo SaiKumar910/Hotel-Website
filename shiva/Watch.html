@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Digital Watch</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background: teal;
+        }
+        .card{
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;    
+        }
+        .bg-success{
+            background: linear-gradient(45deg,green,lightgreen);
+            border-radius: 10px;
+            border: green solid 5px;
+        }
+        .bg-info{
+            background: linear-gradient(45deg,blueviolet,lightgray);
+            border-radius: 10px;
+            border: violet solid 5px;
+        }
+        .bg-danger{
+            background: linear-gradient(45deg,blueviolet,deeppink);
+            border-radius: 10px;
+            border: deeppink solid 5px;
+        }
+    </style> 
+</head>
+  <body>
+      <nav class="navbar scrolling-navbar navbar-dark bg-dark text-warning justify-content-center font-weight-bold">
+          <h3>Digital Watches</h3>
+      </nav>
+
+      <!--------Main Watches--------->
+      <div class="container-fluid">
+          <div class="row mt-5">
+              <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body bg-success text-white text-center">
+                          <h5>Asia/Kolkata</h5>
+                          <h4 class="display-4">India</h4>
+                         <p id="indian-date"></p>
+                         <h4 id="indian-time" class="display-4">10:10:12 PM</h4>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body bg-info text-center text-white">
+                        <h5>usa/new_york</h5>
+                        <h4 class="display-4">USA</h4>
+                       <p id="usa-date"></p>
+                       <h4 id="usa-time" class="display-4">10:10:12 PM</h4>
+                    </div>
+                </div>
+             </div>
+
+             <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body bg-danger text-white text-center">
+                        <h5>Asia/Dubai</h5>
+                        <h4 class="display-4">Dubai</h4>
+                       <p id="dubai-date"></p>
+                       <h4 id="dubai-time" class="display-4">10:10:12 PM</h4>
+                    </div>
+                </div>
+             </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body bg-success text-white text-center">
+                            <h5>Asia/Singapore</h5>
+                            <h4 class="display-4">Singapore</h4>
+                           <p id="singapore-date"></p>
+                           <h4 id="singapore-time" class="display-4">10:10:12 PM</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body bg-info text-center text-white">
+                          <h5>usa/Afghanistan</h5>
+                          <h4 class="display-4">Afghanistan</h4>
+                         <p id="Afghanistan-date"></p>
+                         <h4 id="Afghanistan-time" class="display-4">10:10:12 PM</h4>
+                      </div>
+                  </div>
+               </div>
+  
+               <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body bg-danger text-white text-center">
+                          <h5>Asia/Beijing</h5>
+                          <h4 class="display-4">China</h4>
+                         <p id="China-date"></p>
+                         <h4 id="China-time" class="display-4">10:10:12 PM</h4>
+                      </div>
+                  </div>
+               </div>
+              </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="Watch.js"></script>
+</body>
+</html>

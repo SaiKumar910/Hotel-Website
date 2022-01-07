@@ -1,0 +1,46 @@
+
+.register-div{ 
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.5)
+    width: 300px;
+    color: :blank;
+    padding: 15px;
+    margin: 50px auto;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+}
+.register-div h1{
+    font-size: 30px;
+  
+    margin: 10px;
+}
+.form-group label{
+    display: block;
+    margin: 10px;
+}
+.form-control{
+    font-size: 18px;
+    height: 35px;
+    outline: none;
+    border: none;
+    width: 290px;
+}
+.form-control:focus{
+    background: linear-gradient(45deg,red,orange);
+}
+.register-btn{
+    margin: 15px;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+}
+.register-btn:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+    color: black;
+}

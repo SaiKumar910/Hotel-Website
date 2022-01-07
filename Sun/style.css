@@ -1,0 +1,52 @@
+.dropdown-item:hover{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    box-shadow: 0 0 5px red;
+    color: white !important;
+}
+
+.bg-teal , btn-teal{
+    background-color: #2d7070 !important;
+}
+.text-teal{
+        color:  #2d7070 !important ;
+}
+.shiva{
+    background:linear-gradient(45deg,lightgrey,lightgreen);
+    
+}
+.bg-primary , .btn-primary{
+    background: linear-gradient(45deg,darkslategrey,cornflowerblue);
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,darkslategrey,limegreen);
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,darkslategrey,coral);
+}
+.bg-danger , .btn-danger{
+    background: linear-gradient(45deg,darkslategrey,red);
+}
+
+.bg-secondary{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white !important;
+    text-align: center;
+}
+.chitti{
+    background: linear-gradient(45deg,rgb(233, 233, 124),rgb(236, 126, 185));
+}
+.btn-outline-primary{
+    background: white;
+}
+.upender{
+    text-align: center;
+}
+.bg-success-sai{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white !important;
+}
+
+.navbar .nav-item .nav-link::before,
+.navbar .nav-item .nav-link:hover{
+    background-color: green !important;
+}

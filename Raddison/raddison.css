@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+.btn{
+    border-radius: 10px;
+    transition: all 0.5;
+}
+.btn:hover{
+    border-color: blue;
+    transform: scale(1.1,1.1);
+}
+
+/*========End Log in Landing Page=======*/
+.landing-img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;    
+}
+.carousel-img{
+    position: relative;
+    background: rgba(0,0,0, 0.5);
+    background-size: cover;
+    height: 100vh;
+}
+.carousel-left{
+    top: 100px;
+    text-align: left;
+}
+.carousel-center{
+    top: 100px;
+    text-align: center;
+}
+.carousel-right{
+    top: 100px;
+    text-align: end;
+}
+/*=========Navbar Section=============*/
+.bg-light-light{
+    background: rgba(0,0,0,0.3);
+}
+.bg-light-light:hover{
+    background: rgba(0,0,0,0.9);
+}
+
+.nav-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navbar-brand{
+    font-size: 23px;
+}
+.nav-link:hover{
+    background: rgb(182, 255, 182);
+    border-radius: 10px;
+    color: red;
+}
+.margin-navs{
+    margin-right: 830px;
+}
+/*
+.profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/*=========End Navbar Section=============*/
+/*=========Marquee Section=============*/
+.marquee{
+    margin-top: 75px;
+    color: white;
+    font-size: 20px;
+}
+/*=========End Marquee Section=============*/
+/*=========Booking Section=============*/
+.bg-booking{
+    margin-top: 330px;
+    padding: 12px;
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+/*=========End Booking Section=============*/
+/*=========End Landing Page Section=============*/
+/*=========Start Facility Section ========*/
+.img-facility{
+    width: 255px;
+    height: 255px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 ;
+}
+.bg-facility{
+    box-shadow: 0 5px 10px black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.btn-primary{
+    box-shadow: 0 5px 10px black;
+}
+/*=========End Facility Section ========*/
+/*==========Start Department Section======*/
+.img-dpmt{
+    width: 490px;
+    height: 300px;
+    box-shadow: 0 5px 10px black;
+    border-radius: 15px;
+}
+/*==========End Department Section======*/
+/*=========Destination Section======*/
+.img-dstn{
+    position: relative;
+    width: 800px;
+    height: 350px;
+    border-radius: 10px;
+}
+.dstn-card{
+    border-radius: 10px;
+}
+.dstn-card:hover{
+    border:2px solid blueviolets;
+}
+.tour-title{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    background: rgba(0, 0, 0,0.2);
+    padding-right: 50px;
+    border-radius: 0 50px 50px 0;
+}
+.tour-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-dstn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn-dstn:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0 5px 10px black;
+}
+.img-paris{
+    height: 534px;
+    width: 400px;
+    border-radius: 10px;
+}
+.paris-price{
+    position: absolute;
+    bottom: 10px;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*========Modl Setion For Destination========*/
+.modal-dstn{
+    margin-top: 110px;
+    border-radius: 15px;
+    border: 3px solid rgb(255, 169, 236);
+    box-shadow: 3px 5px 10px black;
+}
+.bg-modal{
+    background: rgba(0, 0, 0,0.8);
+    border-radius: 10px 10px 0px 0px;
+    color: gold;
+    
+}
+/*========Modl Setion For Destination========*/
+/*=========End Destination Section======*/
+/*======Subsrib Section=====*/
+.bg-sub{
+    background: rgba(0,0,0,0.2);
+}
+/*======End Subsrib Section=====*/
+/*======Map Section=====*/
+.map{
+    border-radius: 20px;
+    
+}
+/*=====Main Footer=======*/
+.main-footer{
+    background: white url(https://cf.bstatic.com/xdata/images/hotel/max1280x900/9602547.jpg?k=2dcdeab3f9202ab2b68fde2b13a4ddc3a0557eb84e5e6eaa51a05cb0c9c1c41e&o=&hp=1);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+.footer-wrapper{
+    background: rgba(0,0,0,0.5);
+}
+/*=====End Footer======*/
+/*======Lnading-log section======*/
+.landing-log{
+    background: white url(https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/44/90/449061_v4.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.landing-wrap{
+    background: rgba(0,0,0,0.6);
+    height: 100vh;
+}
+/*===========Start Watch=================*/
+.row-control{
+    margin-bottom: 50px;
+}
+.bg-watch{
+    background-color: rgba(0,0,0,0);    
+    border-radius: 15px;
+    margin-top: 120px;
+    border: none;
+}
+.bg-log-in{
+    background: rgba(0,0,0,0);
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.is-form-valid{
+    border: 1px solid limegreen;
+    border-left: 15px solid limegreen;
+    box-shadow: 0 0 5px limegreen;
+}
+.is-form-invalid{
+    border: 1px solid orangered;
+    border-left: 15px solid orangered;
+    box-shadow: 0 0 5px orangered;
+}
+.text-success{
+    color: green !important;
+    font-size: 12px;
+}
+.text-danger{
+    color: orangered !important;
+    font-size: 12px;
+}
+
+/*===========End Watch=================*/
+/*======Lnading-log section======*/

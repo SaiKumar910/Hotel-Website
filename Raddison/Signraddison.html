@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sign In</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="raddison.css">  
+</head>
+  <body>
+    <div class="landing-log">
+        <div class="landing-wrap">
+                        <!--==================Main Navbar ===================-->
+        <nav class="navbar navbar-expand-md  scrolling-navbar bg-light-light fixed-top">
+          <div class="container">
+              <a href="Raddison.html" class="navbar-brand text-white font-weight-bold mr-auto ">
+                <img src="https://iconape.com/wp-content/files/du/92549/svg/radisson-2.svg" alt="" class="img-fluid nav-img">
+                  RADDISON PLAZA</a>
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#hotel">
+                  <span class="navbar-toggler-icon bg-white"></span>
+              </button>
+          </div>
+          <ul class="navbar-nav margin-navs">
+              <div class="collapse navbar-collapse" id="hotel">
+                  <li class="navbar-item px-2">
+                      <a href="#" class="nav-link text-white mr-auto">Profile</a>
+                  </li>
+                  <li class="navbar-item px-2">
+                      <a href="Raddison.html" class="nav-link text-white">HOME</a>
+                  </li>
+              </div>
+          </ul>
+      </nav>
+  <!--================End Main  Header=========================-->
+  <!--==========Start Row For Watch, Log In , Sign Up=======-->
+       <!--===========Indain Time======-->
+      <div class="container mb-5 row-control">
+               <div class="row ">
+                  <div class="col-md-4">
+                      <div class="card bg-watch">
+                           <div class="card-body text-center text-white"> 
+                               <h2 id="india-date">12/12/2022</h2>
+                               <h2 id="india-time">12:00:00 PM</h2>
+                           </div>                    
+                      </div>
+              <!--=========End Indian Time=============-->
+      
+              <!--===========Start LogIN==========-->
+                  <div class="row">
+                      <div class="col-md-12">
+                      <div class="card bg-log-in">
+                              <h3 class="text-white ml-4 mt-2 font-weight-bold">Login</h3>
+                          <div class="card-body">
+                             <form class="text-white" id="logIn">
+                                 <div class="form-group">
+                                     <p>Email</p>
+                                      <input id="logIn-email" type="email" class="form-control " placeholder="@email.com">
+                                 </div>
+                                 <div class="form-group">
+                                     <p>Password</p>
+                                     <div class="input-group">
+                                      <input id="logIn-password" type="password" class="form-control" placeholder="Password">
+                                      <div class="input-group-append">
+                                          <div class="input-group-text">   
+                                            <input type="checkbox" id="checkboxLog" aria-label="Checkbox for following text input">
+                                          </div>  
+                                     </div>  
+                                    </div> 
+                                 </div>
+                                 <div class="log-in-btn">
+                                  <input type="reset" value="Clear" class="btn btn-warning  btn-outline-white">
+                                  <input type="submit" value="LogIn" onclick="saveData()" class="btn btn-primary btn-outline-white">
+                                 </div>
+                             </form> 
+                          </div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+              <!--=========End Log IN===========-->
+              <!--===========Start Sign Up==========-->
+              <div class="col-md-6 ml-auto bg-watch">
+                  <div class="card login-card bg-log-in">
+                      <div class="">
+                          <h3 class="text-white ml-4 mt-2 font-weight-bold">Sign Up</h3>
+                      </div>
+                      <div class="card-body">
+                         <form id="registrationForm" class="text-white">
+                             <div  class="form-group">
+                                  <input id="firstName" type="text" class="form-control " placeholder="First Name">
+                                  <div id="firstNameFeedback"></div>
+                             </div>
+                             <div class="form-group">
+                                  <input id="lastName" type="text" class="form-control " placeholder="Last Name">
+                                  <div id="lastNameFeedback"></div>
+                             </div>
+                             <div class="form-group">
+                                  <input id="email" type="email" class="form-control " placeholder="Email">
+                                  <div id="emailFeedback"></div>    
+                             </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                  <input  id="password" type="password" class="form-control" placeholder="Password">
+                                  <div class="input-group-append">
+                                      <div class="input-group-text">
+                                          <input type="checkbox" id="checkbox" aria-label="Checkbox for following text input">
+                                      </div>
+                                  </div>
+                                </div>
+                                  <div id="passwordFeedback"></div>    
+                            </div>
+                            <div  class="form-group">
+                                  <input id="confirmPassword" type="password" class="form-control " placeholder="Confirm Password">
+                                  <div id="confirmPasswordFeedback" ></div>     
+                           </div>
+                            <div class="log-in-btn">
+                                  <input type="reset" value="Reset" class="btn btn-warning">
+                                  <input type="submit" value="Register" onclick="savaData()" id="register" class="btn btn-primary">
+                           </div>
+                        </form> 
+                      </div>
+                  </div>
+              </div>
+              <!--===========End Sign Up==========-->
+        </div>   
+      </div>      
+      <!--==========End Row For Watch, Log In , Sign Up=======-->
+ </div>
+</div>
+    <!-- Optional JavaScript -->
+    <script src="raddison.js"></script>         
+</body>
+</html>

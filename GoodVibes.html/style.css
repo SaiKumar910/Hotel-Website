@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*
+.navbar{
+    position: fixed;
+    width: 100%;
+}*/
+
+
+.logo-img{
+    border-radius: 50%;
+    margin: -5px;
+    border-radius: 0 0 5px red;
+
+}
+
+
+.bg-teal, .btn-teal{
+    background-color: #27ddde !important;
+}
+.text-teal{
+    color: #27ddde!important;
+}
+.btn{
+    border-radius: 50px;
+}
+/*--------------------Landing section-------------------------------------*/
+.landing-section{
+    background: white url(https://images.pexels.com/photos/4240586/pexels-photo-4240586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    height: 100vh;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    background: cover;
+    height: 100vh;
+}
+/*-----------------gallery section---------------*/
+.gallery-img{
+    border-radius: 50px;
+    border: 5px solid rgb(98, 98, 206) !important;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+    width: 400px;
+    height: 380px;
+}
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+}
+
+/*-------------Learn More Section--------------*/
+.btn-outline-white{
+    border: 2px solid #27ddde;
+    transition: all 0.5s;
+}
+.btn-outline-white:hover{
+    border: 2px solid #27ddde;
+    color: #27ddde !important;
+    box-shadow: 0 0 10px #27ddde;
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+
+}
+
+/*---------------Traieer Section---------------------*/
+.trainer-img{
+    box-shadow: 0 0 10px #27ddde !important;
+    margin-top: -30%;
+    
+}
+.trainer-card{
+    border-radius: 10px !important;
+   transition: all 0.5s;
+   background-color: #27ddde !important;
+}
+.trainer-card:hover{
+    transform: translateY(-20px);
+    background: linear-gradient(45deg,black,darkslategrey);
+    color: #27ddde;
+    box-shadow: 0 0 10px #27ddde;
+    cursor: pointer;
+}
+/*---------Contact Us Section--------------*/
+.contact-light{
+    box-shadow: 0 5px 10px black;
+}

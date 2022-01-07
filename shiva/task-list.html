@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Task-List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .bg-success{
+            background: linear-gradient(45deg,lime,lightgreen);
+        }
+        .btn{
+            border-radius: 50px;
+            background: linear-gradient(45deg,blueviolet,deeppink);
+        }
+        .bg-light-light{
+            background: linear-gradient(45deg,lightgray,lightpink);
+        }
+    </style>
+</head>
+  <body>
+      <nav class="navbar navbar-dark bg-dark font-weight-bold text-warning justify-content-center ">
+          <h1>Task-List</h1>
+      </nav>
+      <!--------Main Task List--------->
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col-md-8 m-auto">
+                  <div class="card">
+                      <div class="card-header bg-success text-center">
+                           <h1>Task List </h1>
+                      </div>
+                      <div class="card-body bg-light-light">
+                          <form id="form-task">
+                              <div class="from-group">
+                                  <input id="input-item" type="text" class="form-control" placeholder="Add a Task">
+                              </div>
+                              <div class="form-group mt-3">
+                                <input type="submit" value="Add Task" class="btn btn-warning">
+                            </div>
+                          </form>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-------Adding Task-------->
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col-md-8 m-auto">
+                  <ul class="list-group" id="task-list">
+                  </ul>
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="task-list.js"></script>
+</body>
+</html>

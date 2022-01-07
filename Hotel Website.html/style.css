@@ -1,0 +1,113 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.btn{
+    border-radius: 50px;
+}
+
+.navbar .navbar-brand{
+    font-size: 20px;
+}
+.nav-item:hover{
+    color: white;
+   
+}
+.btn-block:hover{
+    box-shadow: 0 0 10px rgb(105, 9, 9);
+    color: white;
+}   
+/*-----------------Landing Page--------------------------*/
+.landing-section{
+    background: white url(https://media.radissonhotels.net/image/radisson-blu-resort-goa-cavelossim-beach/poolview/16256-114074-f63657846_3xl.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*----------------Department image section------------------*/
+.department-img{
+    border-radius: 10px;
+    box-shadow: 0 15px 15px black;
+    width: 450px;
+    height: 400px;
+}
+/*           More information section */
+.more-card{
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.more-card:hover{
+    box-shadow: 0 5px 10px black;
+}
+.more-img{
+    border-radius: 10px;
+    position: relative;
+}
+.more-card-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.more-card-info p{
+    margin-bottom: 0;
+}
+.more-card-info{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: coral;
+    padding: 10px 15px;
+    border-radius: 0 50px 50px 0 ;
+    width: 45%;
+    transition: all 0.5s;
+    text-align: right;    
+}
+.more-card:hover .more-card-info{
+    width: 60%;
+    background-color: orangered;
+}
+.shiva{
+    height: 167px;
+    width: 255px;
+}
+/*          tour infromation section       */
+
+.tour-card{
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.tour-card:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+.tour-img{
+    position: relative;
+    width: 400px;
+    height: 250px;
+}
+.tour-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0,250,0,0.5);
+    border-radius: 10px;
+}
+
+/*           main footer secton       */
+
+.main-footer{
+    background: white url(https://images.indianexpress.com/2021/11/GettyImages-Singapore-1200.jpg) no-repeat scroll center;
+    color: white;
+    background-size: cover;
+
+}
+.footer-wrapper{
+    background: rgba(0,0,0,0.7);
+}

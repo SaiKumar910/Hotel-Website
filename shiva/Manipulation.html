@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .navbar{
+            border-radius: 20px;
+        }
+        .card-body{
+            background: lightpink;
+        }
+        .bg-green{
+            background: lightgreen;
+        }
+        .card-header{
+            border-radius: 20px;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+</head>
+  <body>
+      <!---
+      <nav class="navbar mt-2 scrolling-navbar navbar-dark bg-dark text-warning  font-weight-bold justify-content-center fixed-top">
+          <span class="navbar-brand"> Manipulation SetUp</span>
+      </nav>
+    -->
+
+     <div class="container m-5">
+         <div class="row">
+             <div class="col-md-6">
+                 <div class="card">
+                     <div class="card-header bg-success text-white">
+                          <h3>SMS APP</h3>
+                     </div>
+                     <div class="card-body bg-light text-white">
+                         <div class="row">
+                             <div class="col">
+                                 <form> 
+                                     <div class="from-group">
+                                         <textarea maxlength="100" id="text-area" class="form-control" placeholder="Enter Your Text" rows="4"></textarea>
+                                     </div>
+                                 </form>
+                             </div>
+                          </div>
+                     </div>
+                     <div class="card-footer bg-green">
+                         <h3>The Remaining Charecter :  
+                            <span class="font-weight-bold text-primary" id="char-count"></span>   /100
+                         </h3>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="Manipulation.js"></script>
+</body>
+</html>

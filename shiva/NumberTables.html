@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .bg-success{
+            background: linear-gradient(45deg,green,lightgreen);
+        }
+        .bg-light{
+            background: linear-gradient(45deg,blueviolet,deeppink);
+        }
+        .badge-secondary{
+            background: linear-gradient(45deg,black,purple);
+        }
+    </style>   
+</head>
+  <body>
+
+    <nav class="navbar scrolling-navbar navbar-dark bg-dark text-warning justify-content-center font-weight-bold">
+        Math Tables
+    </nav>
+    <!--------Main Content-------------->
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col">
+                  <div class="card">
+                      <div class="card-header bg-success text-white text-center">
+                          <h1>Math Tables</h1>
+                      </div>
+                      <div class="card-body bg-light">
+                          <form>
+                              <div class="row">
+                                  <div class="col-md-4">
+                                      <div class="form-group">
+                                          <label>Enter Your Number</label>
+                                          <input id="req-number" type="number" class="form-control" placeholder="Number">
+                                      </div>
+                                  </div>
+                                  <div class="col-md-8">
+                                      <div class="form-group">
+                                          <label for="customRange1">Select</label>
+                                          <input type="range" class="custom-range" id="multiplier" min="1" max="10" value="1">
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  <!-------Result-------->
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col">
+                  <div class="card">
+                      <div class="card-body bg-success">
+                          <div class="row text-center align-items-center">
+                              <div class="col-md-2">
+                                  <h1 class="display-2">
+                                      <span class="badge badge-secondary" id="number-1">1</span>
+                                  </h1>
+                              </div>
+                              <div class="col-md-2">
+                                <h1 class="display-2 font-weight-bold" >
+                                     x
+                                </h1>
+                            </div>
+                            <div class="col-md-2">
+                                <h1 class="display-2">
+                                    <span class="badge badge-secondary" id="number-2">1</span>
+                                </h1>
+                            </div>
+                            <div class="col-md-2">
+                                <h1 class="display-2 font-weight-bold">
+                                     =
+                                </h1>
+                            </div>
+                            <div class="col-md-2">
+                                <h1 class="display-2">
+                                    <span class="badge badge-secondary" id="result">1</span>
+                                </h1>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="NumberTables.js"></script>
+</body>
+</html>
